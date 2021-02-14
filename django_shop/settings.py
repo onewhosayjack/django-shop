@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django_shop_app.apps.DjangoShopAppConfig'
+    'apps.core.apps.ShopConfig'
 ]
 
 MIDDLEWARE = [
@@ -121,7 +121,7 @@ LANGUAGES = (
 )
 
 LOCALE_PATHS = [
-    'locale',
+    BASE_DIR / 'locale',
 ]
 
 
